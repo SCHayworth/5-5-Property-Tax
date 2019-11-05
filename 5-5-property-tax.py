@@ -31,8 +31,9 @@ def main():
 # Define the show_property_tax(value, tax) function.
 # Accepts arguments for the assessment value and the property tax, and prints them to the screen
 def show_property_tax(value, tax):
-    print(f'\n')
-    print(f'Assessed value: ${value:,.2f}')
+
+    # Print the assessment value and the property tax to the screen
+    print(f'\nAssessed value: ${value:,.2f}')
     print(f'Property tax: ${tax:,.2f}')
 
 # Call the main() function to execute the program
